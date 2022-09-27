@@ -13,8 +13,8 @@ export class CoreService {
 
   // public subj = new Subject();
 
-  public subject = new BehaviorSubject(0); // 0 is the initial value
-
+  public subject = new BehaviorSubject(1); // 0 is the initial value
+  // public numVersion: BehaviorSubject<number>;
   constructor() {
     // this.obs.subscribe((data) => console.log(data));
     // this.obs.subscribe((data) => console.log(data));
@@ -25,5 +25,6 @@ export class CoreService {
     // this.subj.next(Math.random());
     // this.subj.subscribe((data) => console.log('Data 3 : ' + data));
     // this.subj.next(Math.random());
+    // this.numVersion = new BehaviorSubject<number>(1);
   }
 }

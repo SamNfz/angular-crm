@@ -1,12 +1,24 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
-
+import { TemplatesModule } from '../templates/templates.module';
+import { IconsModule } from '../icons/icons.module';
+import { BtnComponent } from './components/btn/btn.component';
+import { RouterModule } from '@angular/router';
+import { TableLightComponent } from './components/table-light/table-light.component';
+import { TotalPipe } from './pipes/total.pipe';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
-  declarations: [],
-  imports: [
-    CommonModule
-  ]
+  declarations: [BtnComponent, TableLightComponent, TotalPipe],
+  imports: [CommonModule],
+  exports: [
+    TemplatesModule,
+    IconsModule,
+    BtnComponent,
+    RouterModule,
+    TableLightComponent,
+    TotalPipe,
+    ReactiveFormsModule,
+  ],
 })
-export class SharedModule { }
+export class SharedModule {}

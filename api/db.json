@@ -4,7 +4,7 @@
       "tjmHt": 1200,
       "nbJours": 20,
       "tva": 20,
-      "state": "OPTION",
+      "state": "CONFIRMED",
       "typePresta": "formation",
       "client": "Capgemini2",
       "comment": "Merci Cap pour les 24k",
@@ -24,7 +24,7 @@
       "tjmHt": 1200,
       "nbJours": 1,
       "tva": 20,
-      "state": "CANCELED",
+      "state": "CONFIRMED",
       "typePresta": "formation",
       "client": "Capgemini",
       "comment": null,
@@ -44,11 +44,41 @@
       "tjmHt": 1200,
       "nbJours": 8,
       "tva": 20,
-      "state": "OPTION",
+      "state": "CONFIRMED",
       "typePresta": "coaching",
       "client": "Modis",
       "comment": "Merci Modis pour les 10k",
       "id": 5
+    },
+    {
+      "typePresta": "qsdqsd",
+      "client": "qsdqsd",
+      "nbJours": 1,
+      "tjmHt": 1200,
+      "tva": 20,
+      "state": "OPTION",
+      "comment": "qsdqsd",
+      "id": 6
+    },
+    {
+      "typePresta": "test",
+      "client": "test",
+      "nbJours": 1,
+      "tjmHt": 1200,
+      "tva": 20,
+      "state": "OPTION",
+      "comment": "test",
+      "id": 7
+    },
+    {
+      "typePresta": "qsdqsdqsd",
+      "client": "qsdqsdq",
+      "nbJours": 1,
+      "tjmHt": 1200,
+      "tva": 20,
+      "state": "OPTION",
+      "comment": "qsdqsd",
+      "id": 8
     }
   ],
   "clients": [

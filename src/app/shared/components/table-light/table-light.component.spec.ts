@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PageSignInComponent } from './page-sign-in.component';
+import { TableLightComponent } from './table-light.component';
 
-describe('PageSignInComponent', () => {
-  let component: PageSignInComponent;
-  let fixture: ComponentFixture<PageSignInComponent>;
+describe('TableLightComponent', () => {
+  let component: TableLightComponent;
+  let fixture: ComponentFixture<TableLightComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ PageSignInComponent ]
+      declarations: [ TableLightComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(PageSignInComponent);
+    fixture = TestBed.createComponent(TableLightComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

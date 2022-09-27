@@ -1,3 +1,9 @@
-p {
-  color: white;
+.state-canceled{
+  background: var(--app-error);
+}
+.state-option{
+  background: var(--app-warning);
+}
+.state-confirmed{
+  background: var(--app-success);
 }

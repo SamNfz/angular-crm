@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Ui2Component } from './ui2.component';
+import { FormOrderComponent } from './form-order.component';
 
-describe('Ui2Component', () => {
-  let component: Ui2Component;
-  let fixture: ComponentFixture<Ui2Component>;
+describe('FormOrderComponent', () => {
+  let component: FormOrderComponent;
+  let fixture: ComponentFixture<FormOrderComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ Ui2Component ]
+      declarations: [ FormOrderComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(Ui2Component);
+    fixture = TestBed.createComponent(FormOrderComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
